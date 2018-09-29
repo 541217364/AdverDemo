@@ -15,6 +15,13 @@
 		3072824E215F70FB001A112E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3072824D215F70FB001A112E /* main.m */; };
 		30728258215F70FB001A112E /* Adver_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728257215F70FB001A112E /* Adver_DemoTests.m */; };
 		30728263215F70FB001A112E /* Adver_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728262215F70FB001A112E /* Adver_DemoUITests.m */; };
+		30728274215F7117001A112E /* ZLAdverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728272215F7117001A112E /* ZLAdverManager.m */; };
+		30728275215F7117001A112E /* ZLAdvertisementController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728273215F7117001A112E /* ZLAdvertisementController.m */; };
+		3072827B215F7123001A112E /* leadpage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 30728276215F7122001A112E /* leadpage4.png */; };
+		3072827C215F7123001A112E /* leadpage5.png in Resources */ = {isa = PBXBuildFile; fileRef = 30728277215F7122001A112E /* leadpage5.png */; };
+		3072827D215F7123001A112E /* leadpage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 30728278215F7122001A112E /* leadpage2.png */; };
+		3072827E215F7123001A112E /* leadpage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 30728279215F7123001A112E /* leadpage3.png */; };
+		3072827F215F7123001A112E /* leadpage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3072827A215F7123001A112E /* leadpage1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		3072825E215F70FB001A112E /* Adver-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adver-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30728262215F70FB001A112E /* Adver_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adver_DemoUITests.m; sourceTree = "<group>"; };
 		30728264215F70FB001A112E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30728270215F7116001A112E /* ZLAdvertisementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLAdvertisementController.h; sourceTree = "<group>"; };
+		30728271215F7117001A112E /* ZLAdverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLAdverManager.h; sourceTree = "<group>"; };
+		30728272215F7117001A112E /* ZLAdverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLAdverManager.m; sourceTree = "<group>"; };
+		30728273215F7117001A112E /* ZLAdvertisementController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLAdvertisementController.m; sourceTree = "<group>"; };
+		30728276215F7122001A112E /* leadpage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leadpage4.png; sourceTree = "<group>"; };
+		30728277215F7122001A112E /* leadpage5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leadpage5.png; sourceTree = "<group>"; };
+		30728278215F7122001A112E /* leadpage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leadpage2.png; sourceTree = "<group>"; };
+		30728279215F7123001A112E /* leadpage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leadpage3.png; sourceTree = "<group>"; };
+		3072827A215F7123001A112E /* leadpage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leadpage1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,12 @@
 		3072823D215F70F8001A112E /* Adver-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				30728280215F712C001A112E /* ZlAdver */,
+				3072827A215F7123001A112E /* leadpage1.png */,
+				30728278215F7122001A112E /* leadpage2.png */,
+				30728279215F7123001A112E /* leadpage3.png */,
+				30728276215F7122001A112E /* leadpage4.png */,
+				30728277215F7122001A112E /* leadpage5.png */,
 				3072823E215F70F8001A112E /* AppDelegate.h */,
 				3072823F215F70F8001A112E /* AppDelegate.m */,
 				30728241215F70F8001A112E /* ViewController.h */,
@@ -130,6 +152,17 @@
 				30728264215F70FB001A112E /* Info.plist */,
 			);
 			path = "Adver-DemoUITests";
+			sourceTree = "<group>";
+		};
+		30728280215F712C001A112E /* ZlAdver */ = {
+			isa = PBXGroup;
+			children = (
+				30728271215F7117001A112E /* ZLAdverManager.h */,
+				30728272215F7117001A112E /* ZLAdverManager.m */,
+				30728270215F7116001A112E /* ZLAdvertisementController.h */,
+				30728273215F7117001A112E /* ZLAdvertisementController.m */,
+			);
+			path = ZlAdver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +269,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3072824B215F70FB001A112E /* LaunchScreen.storyboard in Resources */,
+				3072827D215F7123001A112E /* leadpage2.png in Resources */,
 				30728248215F70FB001A112E /* Assets.xcassets in Resources */,
+				3072827C215F7123001A112E /* leadpage5.png in Resources */,
+				3072827F215F7123001A112E /* leadpage1.png in Resources */,
+				3072827E215F7123001A112E /* leadpage3.png in Resources */,
 				30728246215F70F8001A112E /* Main.storyboard in Resources */,
+				3072827B215F7123001A112E /* leadpage4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +302,9 @@
 			files = (
 				30728243215F70F8001A112E /* ViewController.m in Sources */,
 				3072824E215F70FB001A112E /* main.m in Sources */,
+				30728274215F7117001A112E /* ZLAdverManager.m in Sources */,
 				30728240215F70F8001A112E /* AppDelegate.m in Sources */,
+				30728275215F7117001A112E /* ZLAdvertisementController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

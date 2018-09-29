@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZLAdvertisementController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ZLAdvertisementController *adVC = [[ZLAdvertisementController alloc]init];
+    adVC.adtype = 3; //1 单张图片 2 多张图片 3 视频
+    self.window.rootViewController = adVC;
+    
     return YES;
 }
 
