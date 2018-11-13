@@ -13,8 +13,8 @@
 		30728248215F70FB001A112E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30728247215F70FB001A112E /* Assets.xcassets */; };
 		3072824B215F70FB001A112E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30728249215F70FB001A112E /* LaunchScreen.storyboard */; };
 		3072824E215F70FB001A112E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3072824D215F70FB001A112E /* main.m */; };
-		30728258215F70FB001A112E /* Adver_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728257215F70FB001A112E /* Adver_DemoTests.m */; };
-		30728263215F70FB001A112E /* Adver_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728262215F70FB001A112E /* Adver_DemoUITests.m */; };
+		30728258215F70FB001A112E /* AdverDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728257215F70FB001A112E /* AdverDemoTests.m */; };
+		30728263215F70FB001A112E /* AdverDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728262215F70FB001A112E /* AdverDemoUITests.m */; };
 		30728274215F7117001A112E /* ZLAdverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728272215F7117001A112E /* ZLAdverManager.m */; };
 		30728275215F7117001A112E /* ZLAdvertisementController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30728273215F7117001A112E /* ZLAdvertisementController.m */; };
 		3072827B215F7123001A112E /* leadpage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 30728276215F7122001A112E /* leadpage4.png */; };
@@ -42,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3072823B215F70F8001A112E /* Adver-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adver-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3072823B215F70F8001A112E /* AdverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3072823E215F70F8001A112E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3072823F215F70F8001A112E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		30728241215F70F8001A112E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -52,11 +52,11 @@
 		3072824A215F70FB001A112E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3072824C215F70FB001A112E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3072824D215F70FB001A112E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		30728253215F70FB001A112E /* Adver-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adver-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30728257215F70FB001A112E /* Adver_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adver_DemoTests.m; sourceTree = "<group>"; };
+		30728253215F70FB001A112E /* AdverDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdverDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30728257215F70FB001A112E /* AdverDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdverDemoTests.m; sourceTree = "<group>"; };
 		30728259215F70FB001A112E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3072825E215F70FB001A112E /* Adver-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adver-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30728262215F70FB001A112E /* Adver_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adver_DemoUITests.m; sourceTree = "<group>"; };
+		3072825E215F70FB001A112E /* AdverDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdverDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30728262215F70FB001A112E /* AdverDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdverDemoUITests.m; sourceTree = "<group>"; };
 		30728264215F70FB001A112E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30728270215F7116001A112E /* ZLAdvertisementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLAdvertisementController.h; sourceTree = "<group>"; };
 		30728271215F7117001A112E /* ZLAdverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLAdverManager.h; sourceTree = "<group>"; };
@@ -97,9 +97,9 @@
 		30728232215F70F8001A112E = {
 			isa = PBXGroup;
 			children = (
-				3072823D215F70F8001A112E /* Adver-Demo */,
-				30728256215F70FB001A112E /* Adver-DemoTests */,
-				30728261215F70FB001A112E /* Adver-DemoUITests */,
+				3072823D215F70F8001A112E /* AdverDemo */,
+				30728256215F70FB001A112E /* AdverDemoTests */,
+				30728261215F70FB001A112E /* AdverDemoUITests */,
 				3072823C215F70F8001A112E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,14 +107,14 @@
 		3072823C215F70F8001A112E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3072823B215F70F8001A112E /* Adver-Demo.app */,
-				30728253215F70FB001A112E /* Adver-DemoTests.xctest */,
-				3072825E215F70FB001A112E /* Adver-DemoUITests.xctest */,
+				3072823B215F70F8001A112E /* AdverDemo.app */,
+				30728253215F70FB001A112E /* AdverDemoTests.xctest */,
+				3072825E215F70FB001A112E /* AdverDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3072823D215F70F8001A112E /* Adver-Demo */ = {
+		3072823D215F70F8001A112E /* AdverDemo */ = {
 			isa = PBXGroup;
 			children = (
 				30728280215F712C001A112E /* ZlAdver */,
@@ -133,25 +133,25 @@
 				3072824C215F70FB001A112E /* Info.plist */,
 				3072824D215F70FB001A112E /* main.m */,
 			);
-			path = "Adver-Demo";
+			path = AdverDemo;
 			sourceTree = "<group>";
 		};
-		30728256215F70FB001A112E /* Adver-DemoTests */ = {
+		30728256215F70FB001A112E /* AdverDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				30728257215F70FB001A112E /* Adver_DemoTests.m */,
+				30728257215F70FB001A112E /* AdverDemoTests.m */,
 				30728259215F70FB001A112E /* Info.plist */,
 			);
-			path = "Adver-DemoTests";
+			path = AdverDemoTests;
 			sourceTree = "<group>";
 		};
-		30728261215F70FB001A112E /* Adver-DemoUITests */ = {
+		30728261215F70FB001A112E /* AdverDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				30728262215F70FB001A112E /* Adver_DemoUITests.m */,
+				30728262215F70FB001A112E /* AdverDemoUITests.m */,
 				30728264215F70FB001A112E /* Info.plist */,
 			);
-			path = "Adver-DemoUITests";
+			path = AdverDemoUITests;
 			sourceTree = "<group>";
 		};
 		30728280215F712C001A112E /* ZlAdver */ = {
@@ -168,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3072823A215F70F8001A112E /* Adver-Demo */ = {
+		3072823A215F70F8001A112E /* AdverDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30728267215F70FB001A112E /* Build configuration list for PBXNativeTarget "Adver-Demo" */;
+			buildConfigurationList = 30728267215F70FB001A112E /* Build configuration list for PBXNativeTarget "AdverDemo" */;
 			buildPhases = (
 				30728237215F70F8001A112E /* Sources */,
 				30728238215F70F8001A112E /* Frameworks */,
@@ -180,14 +180,14 @@
 			);
 			dependencies = (
 			);
-			name = "Adver-Demo";
+			name = AdverDemo;
 			productName = "Adver-Demo";
-			productReference = 3072823B215F70F8001A112E /* Adver-Demo.app */;
+			productReference = 3072823B215F70F8001A112E /* AdverDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30728252215F70FB001A112E /* Adver-DemoTests */ = {
+		30728252215F70FB001A112E /* AdverDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3072826A215F70FB001A112E /* Build configuration list for PBXNativeTarget "Adver-DemoTests" */;
+			buildConfigurationList = 3072826A215F70FB001A112E /* Build configuration list for PBXNativeTarget "AdverDemoTests" */;
 			buildPhases = (
 				3072824F215F70FB001A112E /* Sources */,
 				30728250215F70FB001A112E /* Frameworks */,
@@ -198,14 +198,14 @@
 			dependencies = (
 				30728255215F70FB001A112E /* PBXTargetDependency */,
 			);
-			name = "Adver-DemoTests";
+			name = AdverDemoTests;
 			productName = "Adver-DemoTests";
-			productReference = 30728253215F70FB001A112E /* Adver-DemoTests.xctest */;
+			productReference = 30728253215F70FB001A112E /* AdverDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3072825D215F70FB001A112E /* Adver-DemoUITests */ = {
+		3072825D215F70FB001A112E /* AdverDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3072826D215F70FB001A112E /* Build configuration list for PBXNativeTarget "Adver-DemoUITests" */;
+			buildConfigurationList = 3072826D215F70FB001A112E /* Build configuration list for PBXNativeTarget "AdverDemoUITests" */;
 			buildPhases = (
 				3072825A215F70FB001A112E /* Sources */,
 				3072825B215F70FB001A112E /* Frameworks */,
@@ -216,9 +216,9 @@
 			dependencies = (
 				30728260215F70FB001A112E /* PBXTargetDependency */,
 			);
-			name = "Adver-DemoUITests";
+			name = AdverDemoUITests;
 			productName = "Adver-DemoUITests";
-			productReference = 3072825E215F70FB001A112E /* Adver-DemoUITests.xctest */;
+			productReference = 3072825E215F70FB001A112E /* AdverDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -243,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 30728236215F70F8001A112E /* Build configuration list for PBXProject "Adver-Demo" */;
+			buildConfigurationList = 30728236215F70F8001A112E /* Build configuration list for PBXProject "AdverDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -256,9 +256,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3072823A215F70F8001A112E /* Adver-Demo */,
-				30728252215F70FB001A112E /* Adver-DemoTests */,
-				3072825D215F70FB001A112E /* Adver-DemoUITests */,
+				3072823A215F70F8001A112E /* AdverDemo */,
+				30728252215F70FB001A112E /* AdverDemoTests */,
+				3072825D215F70FB001A112E /* AdverDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30728258215F70FB001A112E /* Adver_DemoTests.m in Sources */,
+				30728258215F70FB001A112E /* AdverDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30728263215F70FB001A112E /* Adver_DemoUITests.m in Sources */,
+				30728263215F70FB001A112E /* AdverDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,12 +329,12 @@
 /* Begin PBXTargetDependency section */
 		30728255215F70FB001A112E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3072823A215F70F8001A112E /* Adver-Demo */;
+			target = 3072823A215F70F8001A112E /* AdverDemo */;
 			targetProxy = 30728254215F70FB001A112E /* PBXContainerItemProxy */;
 		};
 		30728260215F70FB001A112E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3072823A215F70F8001A112E /* Adver-Demo */;
+			target = 3072823A215F70F8001A112E /* AdverDemo */;
 			targetProxy = 3072825F215F70FB001A112E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -475,12 +475,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW4T6B6L7X;
-				INFOPLIST_FILE = "Adver-Demo/Info.plist";
+				INFOPLIST_FILE = AdverDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dididianbei.www.Adver-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididianbei.www.AdverDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -492,12 +492,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW4T6B6L7X;
-				INFOPLIST_FILE = "Adver-Demo/Info.plist";
+				INFOPLIST_FILE = AdverDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dididianbei.www.Adver-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididianbei.www.AdverDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -509,16 +509,16 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW4T6B6L7X;
-				INFOPLIST_FILE = "Adver-DemoTests/Info.plist";
+				INFOPLIST_FILE = AdverDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dididianbei.www.Adver-DemoTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididianbei.www.AdverDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adver-Demo.app/Adver-Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdverDemo.app/AdverDemo";
 			};
 			name = Debug;
 		};
@@ -528,16 +528,16 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW4T6B6L7X;
-				INFOPLIST_FILE = "Adver-DemoTests/Info.plist";
+				INFOPLIST_FILE = AdverDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dididianbei.www.Adver-DemoTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididianbei.www.AdverDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adver-Demo.app/Adver-Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdverDemo.app/AdverDemo";
 			};
 			name = Release;
 		};
@@ -546,16 +546,16 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW4T6B6L7X;
-				INFOPLIST_FILE = "Adver-DemoUITests/Info.plist";
+				INFOPLIST_FILE = AdverDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dididianbei.www.Adver-DemoUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididianbei.www.AdverDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Adver-Demo";
+				TEST_TARGET_NAME = AdverDemo;
 			};
 			name = Debug;
 		};
@@ -564,23 +564,23 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW4T6B6L7X;
-				INFOPLIST_FILE = "Adver-DemoUITests/Info.plist";
+				INFOPLIST_FILE = AdverDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dididianbei.www.Adver-DemoUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididianbei.www.AdverDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Adver-Demo";
+				TEST_TARGET_NAME = AdverDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30728236215F70F8001A112E /* Build configuration list for PBXProject "Adver-Demo" */ = {
+		30728236215F70F8001A112E /* Build configuration list for PBXProject "AdverDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30728265215F70FB001A112E /* Debug */,
@@ -589,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30728267215F70FB001A112E /* Build configuration list for PBXNativeTarget "Adver-Demo" */ = {
+		30728267215F70FB001A112E /* Build configuration list for PBXNativeTarget "AdverDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30728268215F70FB001A112E /* Debug */,
@@ -598,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3072826A215F70FB001A112E /* Build configuration list for PBXNativeTarget "Adver-DemoTests" */ = {
+		3072826A215F70FB001A112E /* Build configuration list for PBXNativeTarget "AdverDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3072826B215F70FB001A112E /* Debug */,
@@ -607,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3072826D215F70FB001A112E /* Build configuration list for PBXNativeTarget "Adver-DemoUITests" */ = {
+		3072826D215F70FB001A112E /* Build configuration list for PBXNativeTarget "AdverDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3072826E215F70FB001A112E /* Debug */,
